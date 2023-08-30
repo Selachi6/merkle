@@ -12,7 +12,7 @@ let whiteistedaddress = [
 ]
 
 // Address you want to find merkle HexProof
-let addr = '0xD0a9f83a5f7A0D95BB5C14F69E2E5E57f50C5BC5';
+let addr = '';
 
 const findMerkleRoot = () => {
     let leafNode = whiteistedaddress.map(addr => keccak256(addr));
